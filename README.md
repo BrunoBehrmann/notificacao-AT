@@ -14,10 +14,10 @@ O microsserviço **notificacao** é responsável por consumir eventos/chamadas d
 
 O sistema completo é composto por 4 microsserviços independentes e containerizados com **Docker**:
 
-1. **[bff-agendador-tarefas](https://github.com/BrunoBehrmann/bff-agendador-tarefas)**: Gateway / BFF que recebe as chamadas externas e orquestra os fluxos.
-2. **[agendador-tarefas](https://github.com/BrunoBehrmann/agendador-tarefas)**: Microsserviço responsável pelas regras de agendamento, persistência e execução temporizada (Cron/Task).
-3. **[usuario](https://github.com/BrunoBehrmann/usuario)**: Microsserviço de gestão, cadastro e validação dos dados de usuários.
-4. **[notificacao](https://github.com/BrunoBehrmann/notificacao)** *(Repositório Atual)*: Microsserviço dedicado ao disparo automatizado de e-mails e alertas.
+1. **[bff-agendador-tarefas](https://github.com/BrunoBehrmann/bff-agendador-tarefas-AT)**: Gateway / BFF que recebe as chamadas externas e orquestra os fluxos.
+2. **[agendador-tarefas](https://github.com/BrunoBehrmann/agendador-tarefas-AT)**: Microsserviço responsável pelas regras de agendamento, persistência e execução temporizada (Cron/Task).
+3. **[usuario](https://github.com/BrunoBehrmann/usuario-AT)**: Microsserviço de gestão, cadastro e validação dos dados de usuários.
+4. **[notificacao](https://github.com/BrunoBehrmann/notificacao-AT)** *(Repositório Atual)*: Microsserviço dedicado ao disparo automatizado de e-mails e alertas.
 
 ---
 
